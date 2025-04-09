@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\TJ\source\repos\Project4\Project4\main.c(46,14): error C2296: '&': 왼쪽 피연산자의 유형이 'char [3]'이므로 유효하지 않습니다.
+C:\Users\TJ\source\repos\Project4\Project4\main.c(46,3): error C2198: 'int scanf(const char *const ,...)': 호출에 인수가 너무 적습니다.
+C:\Users\TJ\source\repos\Project4\Project4\main.c(46,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

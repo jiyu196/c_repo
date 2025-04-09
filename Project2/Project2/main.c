@@ -49,15 +49,15 @@ int main(void)
 
 	printf("국어 점수를 입력하세요 >");
 	scanf("%d, &kor");
-	printf("국어 점수를 입력하세요 >");	
+	printf("영어 점수를 입력하세요 >");	
 	scanf("%d, &eng");
-	printf("국어 점수를 입력하세요 >");
+	printf("수학 점수를 입력하세요 >");
 	scanf("%d, &mat");
 
 	sum = kor + eng + mat;
 	avg = sum / 3.f;
 
-	printf("총점: %d, 평균: %.2f", sum, avg);
+	printf("총점: %d, 평균: %.2f", sum, avg);*/
 
 	//산술
 	/*int a =-80, b = 90;
@@ -69,7 +69,7 @@ int main(void)
 
 	//변수, 숫자, 입력, 출력, 산술
 
-	int num;
+	/*int num;
 	
 	printf("세자리 숫자를 입력하세요 > ");
 	scanf("%d", &num);
@@ -81,10 +81,15 @@ int=
 int
 	scanf("%d,%d,%d", &num / 100, &num % 100 / 10, &num % 100 % 10);
 	printf("총합계:\n", (num / 100)+(num % 100 / 10)+(num % 100 % 10))
-	
+	*/
 //세자리 숫자를 입력받아서 
 //각각의 자릿수에 해당하는 숫자의 합계
 //345
 //3,4,5
+
+	int num;
+	printf("세자리 수를 입력하세요");
+	scanf("%d", &num);
+	printf("입력한 숫자는 %d, %d, %d 이고, 합계는 %d입니다.", num / 100, num % 100 / 10, num % 100 % 10, (num/100)+(num%100/10)+(num%100%10));
 
 }

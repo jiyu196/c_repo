@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\TJ\source\repos\Project6\Project6\main.c(8,7): warning C4101: 'grade' :참조되지 않은 지역 변수입니다.
+  Project6.vcxproj -> C:\Users\TJ\source\repos\Project6\x64\Debug\Project6.exe
